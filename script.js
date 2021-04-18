@@ -6,7 +6,7 @@ var techsArr = ['Javascript', "HTML/CSS", "React", "Vue", "EJS/Handlebars", "Sql
 
 var counter = 0;
 var slideInt;
-var isRunning = true;
+var isRunning = false;
 
 
 
@@ -23,9 +23,6 @@ function slideShow(){
 }
 
 
-slideInt = setInterval(()=>{
-    slideShow()
- },2005)
 
 
  toggleCard.onclick=()=>{
